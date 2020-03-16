@@ -1,0 +1,15 @@
+#This repo consists of all the important things which i felt worth notifying while learning dockers and containers
+*********you should be aware of basic creation of containers using dockers , before you proceed further**************
+
+1. ########## connecting between containers using Docker Compose ##########################
+
+   * Docker Compose helps to start multiple containers and also helps in connecting the containers in an automated way which occurs in 
+     background.
+   * I have created two containers named redis and visits:
+                  creation of redis directly from docker hub and just ran it
+                  creation of visits container , : which ideally counts the number of visits to the webpage created
+   * when i run the two containers , they dont know how to connect and ideally it does not work.
+   * In order to make two containers to have networking between themselves , we need to use Docker-Compose tool , for this i have created
+     docker-compose.yml file and made necessary configurations
+ ***** you can look into visits directory in order to understand how connectivity of containers happened*****************
+    
